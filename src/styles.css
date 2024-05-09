@@ -1,0 +1,41 @@
+/* src/styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+@media(min-width:200px){
+    .SearchBar{
+        margin-top:1.5rem ;
+    }
+}
+
+
+@media(max-width:400px){
+    .Test{
+        margin-top: 1.5rem;
+    }
+}
+
+
+@media(max-width:400px){
+    .Workflow{
+        margin-top: 2rem;
+    }
+}
+
+
+.btn{
+    all: unset;
+    /* appearance: none;
+    border:none;
+    color: white; */
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: var(--colorDark2);
+    cursor: pointer;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+}
